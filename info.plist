@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.alexlafroscia.alfred-switch-audio-source</string>
+	<string>com.alexlafroscia.alfred-switch-audio</string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
@@ -42,7 +42,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Switch Audio Switch</string>
+	<string>Switch Audio</string>
 	<key>objects</key>
 	<array>
 		<dict>
