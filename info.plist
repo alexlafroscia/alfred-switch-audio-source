@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.alexlafroscia.alfred-switch-audio-source</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>69B4002C-BCE5-4A9D-A0B9-622198D9A856</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ED6B7E79-8B79-4DE6-9BCD-8D7BE2EDA3AF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>ED6B7E79-8B79-4DE6-9BCD-8D7BE2EDA3AF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6EC1992B-3103-4619-90C8-339F817E7BD6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Alex LaFrocia</string>
+	<key>description</key>
+	<string>Change active audio device</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Switch Audio Switch</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>audio</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>import sys
+from SwitchAudioSource import get_sources
+
+query = sys.argv[1]
+
+sys.stdout.write(str(get_sources()))</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>./list_sources.py</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Change the audio output device</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>69B4002C-BCE5-4A9D-A0B9-622198D9A856</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>./set_output_source.py</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>ED6B7E79-8B79-4DE6-9BCD-8D7BE2EDA3AF</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Audio Output Device Changed</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>6EC1992B-3103-4619-90C8-339F817E7BD6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Control audi output device through SwitchAudioSource
+
+https://github.com/deweller/switchaudio-osx
+
+It can easily be installed through Homebrew.
+
+```bash
+brew install switchaudio-osx
+```
+
+Once installed, make sure that the "Environment Variable" that points to the executable is set correctly for this script.</string>
+	<key>uidata</key>
+	<dict>
+		<key>69B4002C-BCE5-4A9D-A0B9-622198D9A856</key>
+		<dict>
+			<key>note</key>
+			<string>List output devices</string>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>20</integer>
+		</dict>
+		<key>6EC1992B-3103-4619-90C8-339F817E7BD6</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<integer>570</integer>
+			<key>ypos</key>
+			<integer>20</integer>
+		</dict>
+		<key>ED6B7E79-8B79-4DE6-9BCD-8D7BE2EDA3AF</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>Set output device</string>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<integer>20</integer>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>SWITCH_AUDIO_SOURCE_PATH</key>
+		<string>/Users/alexlafroscia/.homebrew/bin/SwitchAudioSource</string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>SWITCH_AUDIO_SOURCE_PATH</string>
+	</array>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
