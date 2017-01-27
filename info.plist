@@ -192,7 +192,7 @@ Once installed, make sure that the "Environment Variable" that points to the exe
 		<string>SWITCH_AUDIO_SOURCE_PATH</string>
 	</array>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>
