@@ -27,5 +27,5 @@ This plugin provides an `audio` command that will list the available devices. Se
 
 [alfred]: https://www.alfredapp.com
 [switchaudio-osx]: https://github.com/deweller/switchaudio-osx
-[download-link]: https://github.com/alexlafroscia/alfred-switch-audio-source/releases/download/latest/Switch.Audio.alfredworkflow
+[download-link]: https://github.com/alexlafroscia/alfred-switch-audio-source/releases/latest/download/Switch.Audio.alfredworkflow
 [homebrew]: http://brew.sh
