@@ -9,7 +9,7 @@ LOOKUP_WARNING = "Error: Could not find SwitchAudioSource"
 
 
 class AudioSource:
-    def __init__(self, description):
+    def __init__(self, description, active):
         words = description.split(' ')
         output = words.pop(-1)
         title = ' '.join(words)
@@ -21,23 +21,29 @@ class AudioSource:
 
         self.output = output.find('output') > -1
         self.input = not self.output
+        self.icon = { "path": "icons/active.png" if active == title else "icons/inactive.png" }
 
     def __str__(self):
         return str(self.__dict__)
 
 
 def get_sources():
+    active = check_output([
+        PATH_TO_SWITCH_AUDIO_OUTPUT, '-c'
+    ]).strip()
+
     command_output = check_output([
-        PATH_TO_SWITCH_AUDIO_OUTPUT, '-a'
+        PATH_TO_SWITCH_AUDIO_OUTPUT, '-a', '-t', 'output'
     ])
 
-    return map(lambda line: AudioSource(line), command_output.splitlines())
+    return map(lambda line: AudioSource(line, active), command_output.splitlines())
 
 
 def set_output(device):
-    call([
+    command_output = check_output([
         PATH_TO_SWITCH_AUDIO_OUTPUT, '-s', device
-    ])
+    ]).capitalize()
+    stdout.write(command_output)
 
 
 def no_path_provided():
