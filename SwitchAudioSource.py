@@ -33,7 +33,7 @@ def get_sources():
     ]).strip()
 
     command_output = check_output([
-        PATH_TO_SWITCH_AUDIO_OUTPUT, '-a', '-t', 'output'
+        PATH_TO_SWITCH_AUDIO_OUTPUT, '-a'
     ])
 
     return map(lambda line: AudioSource(line, active), command_output.splitlines())
@@ -41,7 +41,13 @@ def get_sources():
 
 def set_output(device):
     command_output = check_output([
-        PATH_TO_SWITCH_AUDIO_OUTPUT, '-s', device
+        PATH_TO_SWITCH_AUDIO_OUTPUT, '-s', device, '-t', 'output'
+    ]).capitalize()
+    stdout.write(command_output)
+
+def set_input(device):
+    command_output = check_output([
+        PATH_TO_SWITCH_AUDIO_OUTPUT, '-s', device, '-t', 'input'
     ]).capitalize()
     stdout.write(command_output)
 
