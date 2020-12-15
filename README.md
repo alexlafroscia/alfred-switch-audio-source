@@ -25,6 +25,9 @@ This plugin provides an `audio` command that will list the available devices. Se
 
 ![Workflow Screenshot](./images/screenshot.png)
 
+The additional command `toggle audio output` will toggle between your last audio output and your current one.  
+Both commands have the ability to add a hotkey for quick access.
+
 [alfred]: https://www.alfredapp.com
 [switchaudio-osx]: https://github.com/deweller/switchaudio-osx
 [download-link]: https://github.com/alexlafroscia/alfred-switch-audio-source/releases/latest/download/Switch.Audio.alfredworkflow

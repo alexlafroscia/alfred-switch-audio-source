@@ -21,7 +21,8 @@ class AudioSource:
 
         self.output = output.find('output') > -1
         self.input = not self.output
-        self.icon = { "path": "icons/active.png" if active == title else "icons/inactive.png" }
+        self.icon = {"path": "icons/active.png" if active ==
+                     title else "icons/inactive.png"}
 
     def __str__(self):
         return str(self.__dict__)
@@ -39,11 +40,18 @@ def get_sources():
     return map(lambda line: AudioSource(line, active), command_output.splitlines())
 
 
-def set_output(device):
+def get_current():
     command_output = check_output([
-        PATH_TO_SWITCH_AUDIO_OUTPUT, '-s', device
-    ]).capitalize()
+        PATH_TO_SWITCH_AUDIO_OUTPUT, '-c'
+    ]).replace("\n", "")
     stdout.write(command_output)
+
+
+def set_output(device):
+    check_output([
+        PATH_TO_SWITCH_AUDIO_OUTPUT, '-s', device
+    ])
+    stdout.write(device)
 
 
 def no_path_provided():
