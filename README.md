@@ -21,12 +21,12 @@ An [Alfred][alfred] front-end for [`switchaudio-osx`][switchaudio-osx]
 
     a. Open your Alfred preferences and select this plugin
 
-         ![Plugin Selection](./images/setup-screen-1.png)
+       ![Plugin Selection](./images/setup-screen-1.png)
 
     b. Open the Configuration panel highlighted in the image below
     c. Change the _Workflow Environment Variable_ to match the value found in the previous step
 
-         ![Plugin Configuration](./images/setup-screen-2.png)
+       ![Plugin Configuration](./images/setup-screen-2.png)
 
 ## Usage
 
