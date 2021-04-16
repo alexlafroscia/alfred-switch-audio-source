@@ -5,6 +5,8 @@ from os import environ
 
 
 PATH_TO_SWITCH_AUDIO_OUTPUT = environ['SWITCH_AUDIO_SOURCE_PATH']
+BUILT_IN_DEVICE_MIC = environ['BUILT_IN_DEVICE_MIC']
+BUILT_IN_DEVICE_SPEAKER = environ['BUILT_IN_DEVICE_SPEAKER']
 LOOKUP_WARNING = "Error: Could not find SwitchAudioSource"
 
 
@@ -33,7 +35,7 @@ def get_sources():
     ]).strip()
 
     command_output = check_output([
-        PATH_TO_SWITCH_AUDIO_OUTPUT, '-a', '-t', 'output', '-f', 'json'
+        PATH_TO_SWITCH_AUDIO_OUTPUT, '-a', '-f', 'json'
     ])
 
     return map(lambda line: AudioSource(line, active), command_output.splitlines())
@@ -48,10 +50,24 @@ def get_current():
 
 def set_output(device):
     check_output([
-        PATH_TO_SWITCH_AUDIO_OUTPUT, '-s', device
+        PATH_TO_SWITCH_AUDIO_OUTPUT, '-t','output', '-s', device
     ])
     stdout.write(device)
 
+def set_input(device):
+    check_output([
+        PATH_TO_SWITCH_AUDIO_OUTPUT, '-t','input', '-s', device
+    ])
+    stdout.write(device)
+
+def is_default_speaker(device):
+    return BUILT_IN_DEVICE_SPEAKER == device
+
+def get_built_in_microphone():
+    return BUILT_IN_DEVICE_MIC
+
+def get_built_in_speaker():
+    return BUILT_IN_DEVICE_SPEAKER
 
 def no_path_provided():
     stdout.write(dumps({
