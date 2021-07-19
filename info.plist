@@ -4,15 +4,247 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.alexlafroscia.alfred-switch-audio</string>
-	<key>category</key>
-	<string>Tools</string>
 	<key>connections</key>
 	<dict>
+		<key>01C1D384-588A-4E64-B466-664C0D6ADE55</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>55E5F39C-074E-44D4-A590-B8388F3005B2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>24202296-CD21-4A75-B283-D6FB3C02BEE0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3A6F07FF-03D6-4253-AC52-4FBB09A77B8E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>250412F0-CF46-4DA1-B4F4-A8E377270C06</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>806CE116-4364-45F7-8273-D597083F1BA3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2ACBC07C-367B-45D2-AAAF-0BF58336AD2E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B7BF0FED-2EB3-41B4-A004-0BED5C4753D3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3A6F07FF-03D6-4253-AC52-4FBB09A77B8E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9B0A7504-520C-4429-A16C-B7DDB416FFE0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3C0FE678-9CDF-4E1F-AD87-D5E4CACDCDA5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>55E5F39C-074E-44D4-A590-B8388F3005B2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>55E5F39C-074E-44D4-A590-B8388F3005B2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B7BF0FED-2EB3-41B4-A004-0BED5C4753D3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>57D701DA-B28B-4DEC-9791-119AD96662D4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>24202296-CD21-4A75-B283-D6FB3C02BEE0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>64A4FE4B-39EF-4C01-A1AF-AC8A03820354</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6C7977A3-08B6-40D5-9978-E48D89B78165</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>69B4002C-BCE5-4A9D-A0B9-622198D9A856</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>2ACBC07C-367B-45D2-AAAF-0BF58336AD2E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6C7977A3-08B6-40D5-9978-E48D89B78165</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>57D701DA-B28B-4DEC-9791-119AD96662D4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>806CE116-4364-45F7-8273-D597083F1BA3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>24202296-CD21-4A75-B283-D6FB3C02BEE0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9029507C-1509-4DC4-85FD-809669989074</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D92CEBA5-F3C7-42D9-9A06-E62F7CECD5FA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9B0A7504-520C-4429-A16C-B7DDB416FFE0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EBADB9C0-4E7A-4715-B940-D34A495F5917</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B7BF0FED-2EB3-41B4-A004-0BED5C4753D3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9029507C-1509-4DC4-85FD-809669989074</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D53AC138-E101-47F0-9C68-3E67A02A3E09</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>806CE116-4364-45F7-8273-D597083F1BA3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D92CEBA5-F3C7-42D9-9A06-E62F7CECD5FA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
 				<string>ED6B7E79-8B79-4DE6-9BCD-8D7BE2EDA3AF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E5B88B4F-44DD-4DA4-9E55-D8A2183C63D5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>69B4002C-BCE5-4A9D-A0B9-622198D9A856</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EBADB9C0-4E7A-4715-B940-D34A495F5917</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>85E6E113-106D-4CBE-9E06-7487AAD98C38</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -36,7 +268,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Alex LaFrocia</string>
+	<string>Alex LaFroscia</string>
 	<key>description</key>
 	<string>Change active audio device</string>
 	<key>disabled</key>
@@ -48,14 +280,51 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>E5B88B4F-44DD-4DA4-9E55-D8A2183C63D5</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>audio</string>
+				<string>audio out</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -67,12 +336,9 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>import sys
-from SwitchAudioSource import get_sources
+				<string>#!/bin/bash
 
-query = sys.argv[1]
-
-sys.stdout.write(str(get_sources()))</string>
+./list_sources.py output</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -82,7 +348,7 @@ sys.stdout.write(str(get_sources()))</string>
 				<key>title</key>
 				<string>Change the audio output device</string>
 				<key>type</key>
-				<integer>8</integer>
+				<integer>0</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -91,7 +357,27 @@ sys.stdout.write(str(get_sources()))</string>
 			<key>uid</key>
 			<string>69B4002C-BCE5-4A9D-A0B9-622198D9A856</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>NEXT_OUTPUT</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>2ACBC07C-367B-45D2-AAAF-0BF58336AD2E</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -119,6 +405,134 @@ sys.stdout.write(str(get_sources()))</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>function run(argv) {
+  // Sanity Checks
+  //if (!Array.isArray(argv) &amp;&amp; !argv.length) return argv;
+  //if (typeof argv[0] !== 'string') return argv;
+
+  var device = argv[0];
+  ObjC.import('stdlib');
+  Application('com.runningwithcrayons.Alfred').setConfiguration('LAST_OUTPUT', {
+    toValue: device,
+    inWorkflow: $.getenv('alfred_workflow_bundleid'),
+    exportable: true
+  });
+
+  return device;
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>9029507C-1509-4DC4-85FD-809669989074</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>./get_current_output.py</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B7BF0FED-2EB3-41B4-A004-0BED5C4753D3</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:NEXT_OUTPUT}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>D92CEBA5-F3C7-42D9-9A06-E62F7CECD5FA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>3C0FE678-9CDF-4E1F-AD87-D5E4CACDCDA5</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>NEXT_OUTPUT</key>
+					<string>{var:LAST_OUTPUT}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>55E5F39C-074E-44D4-A590-B8388F3005B2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -126,7 +540,7 @@ sys.stdout.write(str(get_sources()))</string>
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>{query}</string>
+				<string>Output audio device set to "{query}"</string>
 				<key>title</key>
 				<string>Audio Output Device Changed</string>
 			</dict>
@@ -134,6 +548,320 @@ sys.stdout.write(str(get_sources()))</string>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>6EC1992B-3103-4619-90C8-339F817E7BD6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>toggle audio output</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Toggle last audio output</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>01C1D384-588A-4E64-B466-664C0D6ADE55</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>audio in</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>#!/bin/bash
+
+./list_sources.py input</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>./list_sources.py</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Change the audio input device</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>6C7977A3-08B6-40D5-9978-E48D89B78165</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>64A4FE4B-39EF-4C01-A1AF-AC8A03820354</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>NEXT_INPUT</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>57D701DA-B28B-4DEC-9791-119AD96662D4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>./get_current_input.py</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>24202296-CD21-4A75-B283-D6FB3C02BEE0</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>./set_input_source.py</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>EBADB9C0-4E7A-4715-B940-D34A495F5917</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>function run(argv) {
+  // Sanity Checks
+  if (!Array.isArray(argv) &amp;&amp; !argv.length) return argv;
+  if (typeof argv[0] !== 'string') return argv;
+
+  var device = argv[0];
+  ObjC.import('stdlib');
+  Application('com.runningwithcrayons.Alfred').setConfiguration('LAST_INPUT', {
+    toValue: device,
+    inWorkflow: $.getenv('alfred_workflow_bundleid'),
+    exportable: true
+  });
+
+  return device;
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3A6F07FF-03D6-4253-AC52-4FBB09A77B8E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:NEXT_INPUT}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>9B0A7504-520C-4429-A16C-B7DDB416FFE0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>D53AC138-E101-47F0-9C68-3E67A02A3E09</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>NEXT_INPUT</key>
+					<string>{var:LAST_INPUT}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>806CE116-4364-45F7-8273-D597083F1BA3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Input audio device set to "{query}"</string>
+				<key>title</key>
+				<string>Audio Input Device Changed</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>85E6E113-106D-4CBE-9E06-7487AAD98C38</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>toggle audio input</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Toggle last audio input</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>250412F0-CF46-4DA1-B4F4-A8E377270C06</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -152,23 +880,196 @@ brew install switchaudio-osx
 Once installed, make sure that the "Environment Variable" that points to the executable is set correctly for this script.</string>
 	<key>uidata</key>
 	<dict>
+		<key>01C1D384-588A-4E64-B466-664C0D6ADE55</key>
+		<dict>
+			<key>note</key>
+			<string>Keyword for toggle last audio output</string>
+			<key>xpos</key>
+			<integer>20</integer>
+			<key>ypos</key>
+			<integer>375</integer>
+		</dict>
+		<key>24202296-CD21-4A75-B283-D6FB3C02BEE0</key>
+		<dict>
+			<key>note</key>
+			<string>Get current device</string>
+			<key>xpos</key>
+			<integer>470</integer>
+			<key>ypos</key>
+			<integer>620</integer>
+		</dict>
+		<key>250412F0-CF46-4DA1-B4F4-A8E377270C06</key>
+		<dict>
+			<key>note</key>
+			<string>Keyword for toggle last audio input</string>
+			<key>xpos</key>
+			<integer>20</integer>
+			<key>ypos</key>
+			<integer>870</integer>
+		</dict>
+		<key>2ACBC07C-367B-45D2-AAAF-0BF58336AD2E</key>
+		<dict>
+			<key>note</key>
+			<string>Save next output</string>
+			<key>xpos</key>
+			<integer>350</integer>
+			<key>ypos</key>
+			<integer>60</integer>
+		</dict>
+		<key>3A6F07FF-03D6-4253-AC52-4FBB09A77B8E</key>
+		<dict>
+			<key>note</key>
+			<string>Save current device</string>
+			<key>xpos</key>
+			<integer>615</integer>
+			<key>ypos</key>
+			<integer>620</integer>
+		</dict>
+		<key>3C0FE678-9CDF-4E1F-AD87-D5E4CACDCDA5</key>
+		<dict>
+			<key>note</key>
+			<string>Toggle last output</string>
+			<key>xpos</key>
+			<integer>20</integer>
+			<key>ypos</key>
+			<integer>225</integer>
+		</dict>
+		<key>55E5F39C-074E-44D4-A590-B8388F3005B2</key>
+		<dict>
+			<key>note</key>
+			<string>Save next output</string>
+			<key>xpos</key>
+			<integer>350</integer>
+			<key>ypos</key>
+			<integer>255</integer>
+		</dict>
+		<key>57D701DA-B28B-4DEC-9791-119AD96662D4</key>
+		<dict>
+			<key>note</key>
+			<string>Save next input</string>
+			<key>xpos</key>
+			<integer>350</integer>
+			<key>ypos</key>
+			<integer>555</integer>
+		</dict>
+		<key>64A4FE4B-39EF-4C01-A1AF-AC8A03820354</key>
+		<dict>
+			<key>note</key>
+			<string>Trigger list of devices</string>
+			<key>xpos</key>
+			<integer>20</integer>
+			<key>ypos</key>
+			<integer>525</integer>
+		</dict>
 		<key>69B4002C-BCE5-4A9D-A0B9-622198D9A856</key>
 		<dict>
 			<key>note</key>
 			<string>List output devices</string>
 			<key>xpos</key>
-			<integer>30</integer>
+			<integer>180</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>30</integer>
+		</dict>
+		<key>6C7977A3-08B6-40D5-9978-E48D89B78165</key>
+		<dict>
+			<key>note</key>
+			<string>List input devices</string>
+			<key>xpos</key>
+			<integer>180</integer>
+			<key>ypos</key>
+			<integer>525</integer>
 		</dict>
 		<key>6EC1992B-3103-4619-90C8-339F817E7BD6</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>xpos</key>
-			<integer>570</integer>
+			<integer>875</integer>
 			<key>ypos</key>
+			<integer>280</integer>
+		</dict>
+		<key>806CE116-4364-45F7-8273-D597083F1BA3</key>
+		<dict>
+			<key>note</key>
+			<string>Save next input</string>
+			<key>xpos</key>
+			<integer>350</integer>
+			<key>ypos</key>
+			<integer>750</integer>
+		</dict>
+		<key>85E6E113-106D-4CBE-9E06-7487AAD98C38</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<integer>875</integer>
+			<key>ypos</key>
+			<integer>775</integer>
+		</dict>
+		<key>9029507C-1509-4DC4-85FD-809669989074</key>
+		<dict>
+			<key>note</key>
+			<string>Save current device</string>
+			<key>xpos</key>
+			<integer>615</integer>
+			<key>ypos</key>
+			<integer>125</integer>
+		</dict>
+		<key>9B0A7504-520C-4429-A16C-B7DDB416FFE0</key>
+		<dict>
+			<key>note</key>
+			<string>Pass next input</string>
+			<key>xpos</key>
+			<integer>780</integer>
+			<key>ypos</key>
+			<integer>650</integer>
+		</dict>
+		<key>B7BF0FED-2EB3-41B4-A004-0BED5C4753D3</key>
+		<dict>
+			<key>note</key>
+			<string>Get current device</string>
+			<key>xpos</key>
+			<integer>470</integer>
+			<key>ypos</key>
+			<integer>125</integer>
+		</dict>
+		<key>D53AC138-E101-47F0-9C68-3E67A02A3E09</key>
+		<dict>
+			<key>note</key>
+			<string>Toggle last input</string>
+			<key>xpos</key>
 			<integer>20</integer>
+			<key>ypos</key>
+			<integer>720</integer>
+		</dict>
+		<key>D92CEBA5-F3C7-42D9-9A06-E62F7CECD5FA</key>
+		<dict>
+			<key>note</key>
+			<string>Pass next input</string>
+			<key>xpos</key>
+			<integer>780</integer>
+			<key>ypos</key>
+			<integer>155</integer>
+		</dict>
+		<key>E5B88B4F-44DD-4DA4-9E55-D8A2183C63D5</key>
+		<dict>
+			<key>note</key>
+			<string>Trigger list of output devices</string>
+			<key>xpos</key>
+			<integer>20</integer>
+			<key>ypos</key>
+			<integer>30</integer>
+		</dict>
+		<key>EBADB9C0-4E7A-4715-B940-D34A495F5917</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>Set input device</string>
+			<key>xpos</key>
+			<integer>875</integer>
+			<key>ypos</key>
+			<integer>620</integer>
 		</dict>
 		<key>ED6B7E79-8B79-4DE6-9BCD-8D7BE2EDA3AF</key>
 		<dict>
@@ -177,22 +1078,28 @@ Once installed, make sure that the "Environment Variable" that points to the exe
 			<key>note</key>
 			<string>Set output device</string>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>875</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>125</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
 	<dict>
+		<key>LAST_INPUT</key>
+		<string></string>
+		<key>LAST_OUTPUT</key>
+		<string>44</string>
+		<key>NEXT_OUTPUT</key>
+		<string>MacBook Pro Speakers</string>
 		<key>SWITCH_AUDIO_SOURCE_PATH</key>
-		<string>/Users/alexlafroscia/.homebrew/bin/SwitchAudioSource</string>
+		<string>/opt/homebrew/bin/SwitchAudioSource</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
 		<string>SWITCH_AUDIO_SOURCE_PATH</string>
 	</array>
 	<key>version</key>
-	<string>1.0.2</string>
+	<string>1.2.0</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>

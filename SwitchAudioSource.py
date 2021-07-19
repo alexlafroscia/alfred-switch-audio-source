@@ -1,55 +1,75 @@
-from subprocess import check_output, call
-from json import dumps
+from subprocess import check_output
+from json import dumps, loads
 from sys import stdout
 from os import environ
 
 
-PATH_TO_SWITCH_AUDIO_OUTPUT = environ['SWITCH_AUDIO_SOURCE_PATH']
+PATH_TO_SWITCH_AUDIO= environ['SWITCH_AUDIO_SOURCE_PATH']
 LOOKUP_WARNING = "Error: Could not find SwitchAudioSource"
 
 
 class AudioSource:
-    def __init__(self, description, active):
-        words = description.split(' ')
-        output = words.pop(-1)
-        title = ' '.join(words)
-
-        self.uid = title
+    def __init__(self, description, active_output, active_input):
+        audioSourceJSON = loads(description)
+        title = audioSourceJSON["name"]
+        self.uid = audioSourceJSON["uid"]
+        self.arg = audioSourceJSON["id"]
         self.title = title
-        self.arg = title
         self.autocomplete = title
+        self.type = audioSourceJSON["type"]
 
-        self.output = output.find('output') > -1
-        self.input = not self.output
-        self.icon = { "path": "icons/active.png" if active == title else "icons/inactive.png" }
+        if self.type == "output":
+            active = active_output
+        else:
+            active = active_input
+
+        self.icon = {"path": "icons/active.png" if active ==
+                     title else "icons/inactive.png"}
 
     def __str__(self):
         return str(self.__dict__)
 
 
 def get_sources():
-    active = check_output([
-        PATH_TO_SWITCH_AUDIO_OUTPUT, '-c'
+    active_output = check_output([
+        PATH_TO_SWITCH_AUDIO, '-c', '-t' 'output'
+    ]).strip()
+
+    active_input = check_output([
+        PATH_TO_SWITCH_AUDIO, '-c', '-t' 'input'
     ]).strip()
 
     command_output = check_output([
-        PATH_TO_SWITCH_AUDIO_OUTPUT, '-a'
+        PATH_TO_SWITCH_AUDIO, '-a', '-f', 'json'
     ])
 
-    return map(lambda line: AudioSource(line, active), command_output.splitlines())
+    return map(lambda line: AudioSource(line, active_output, active_input), command_output.splitlines())
 
 
-def set_output(device):
+def get_current_output():
     command_output = check_output([
-        PATH_TO_SWITCH_AUDIO_OUTPUT, '-s', device, '-t', 'output'
-    ]).capitalize()
-    stdout.write(command_output)
+        PATH_TO_SWITCH_AUDIO, '-c', '-t', 'output', '-f', 'json' # being explicit, but should default to `-t output`
+    ]).replace("\n", "")
+    stdout.write(loads(command_output)["id"])
+
+def get_current_input():
+    command_output = check_output([
+        PATH_TO_SWITCH_AUDIO, '-c', '-t', 'input', '-f', 'json'
+    ]).replace("\n", "")
+    stdout.write(loads(command_output)["id"])
 
 def set_input(device):
     command_output = check_output([
-        PATH_TO_SWITCH_AUDIO_OUTPUT, '-s', device, '-t', 'input'
+        PATH_TO_SWITCH_AUDIO, '-s', device, '-t', 'input'
     ]).capitalize()
     stdout.write(command_output)
+
+
+def set_output(device):
+    check_output([
+        PATH_TO_SWITCH_AUDIO, '-i', device, '-t', 'output'
+    ])
+    stdout.write(device)
 
 
 def no_path_provided():

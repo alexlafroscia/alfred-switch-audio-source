@@ -21,7 +21,7 @@ An [Alfred][alfred] front-end for [`switchaudio-osx`][switchaudio-osx]
 
 ## Usage
 
-This plugin provides an `audio` command that will list the available devices. Select one of them to make that the active audio output device.
+This plugin provides an `audio out` and `audio in` command that will list the available devices. Select one of them to make that the active audio output device.
 
 ![Workflow Screenshot](./images/screenshot.png)
 
