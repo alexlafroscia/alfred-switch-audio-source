@@ -1090,9 +1090,6 @@ Once installed, make sure that the "Environment Variable" that points to the exe
 		<key>LAST_OUTPUT</key>
 		<string>44</string>
 		<key>NEXT_OUTPUT</key>
-		<string>MacBook Pro Speakers</string>
-		<key>SWITCH_AUDIO_SOURCE_PATH</key>
-		<string>/opt/homebrew/bin/SwitchAudioSource</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
