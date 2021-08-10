@@ -60,7 +60,7 @@ def get_current_input():
 
 def set_input(device):
     command_output = check_output([
-        PATH_TO_SWITCH_AUDIO, '-s', device, '-t', 'input'
+        PATH_TO_SWITCH_AUDIO, '-i', device, '-t', 'input'
     ]).capitalize()
     stdout.write(command_output)
 
