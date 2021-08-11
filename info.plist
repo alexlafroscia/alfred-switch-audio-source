@@ -1087,13 +1087,22 @@ Once installed, make sure that the "Environment Variable" that points to the exe
 	<dict>
 		<key>LAST_INPUT</key>
 		<string></string>
+		<key>NEXT_INPUT</key>
+		<string></string>
 		<key>LAST_OUTPUT</key>
-		<string>44</string>
+		<string></string>
 		<key>NEXT_OUTPUT</key>
+		<string></string>
+		<key>SWITCH_AUDIO_SOURCE_PATH</key>
+		<string>/opt/homebrew/bin/SwitchAudioSource</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
 		<string>SWITCH_AUDIO_SOURCE_PATH</string>
+		<string>LAST_INPUT</string>
+		<string>NEXT_INPUT</string>
+		<string>LAST_OUTPUT</string>
+		<string>NEXT_OUTPUT</string>
 	</array>
 	<key>version</key>
 	<string>1.2.0</string>
